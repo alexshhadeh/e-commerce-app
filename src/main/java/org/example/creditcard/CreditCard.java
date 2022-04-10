@@ -5,11 +5,15 @@ import java.math.BigDecimal;
 public class CreditCard {
     private BigDecimal initialLimit;
 
-    public void assignLimit(BigDecimal initialLimit) {
-        this.initialLimit = initialLimit;
+    public void assignCreditLimit(BigDecimal newCreditLimit) {
+        if (this.initialLimit == null) {
+            throw new CantAssignLimtiTwiceException();
+        }
+        this.initialLimit = newCreditLimit;
+
     }
 
     public BigDecimal getBalance() {
-        return this.initialLimit;
+        return initialLimit;
     }
 }
