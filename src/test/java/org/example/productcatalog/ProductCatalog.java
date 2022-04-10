@@ -1,30 +1,26 @@
 package org.example.productcatalog;
 
 import java.math.BigDecimal;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class ProductCatalog {
-    Map<String, ProductData> products;
-    public ProductCatalog() {
-        this.products = new HashMap<>();
+    ProductStorage productStorage;
+    /// Domain / Business
+    public ProductCatalog(ProductStorage productStorage) {
+        this.productStorage = productStorage;
     }
-
     public String addProduct(String productId, String name) {
         ProductData newProduct = new ProductData(productId, name);
-        products.put(productId, newProduct);
-
+        productStorage.save(newProduct);
         return productId;
     }
 
     private ProductData loadProductById(String productId) {
-        return products.get(productId);
+        return productStorage.load(productId);
     }
 
     public void publish(String productId) {
-        ProductData loaded = loadProductById(productId);
+        ProductData loaded = productStorage.load(productId);
 
         if (loaded.getPrice() == null) {
             throw new CantPublishProductException();
@@ -33,10 +29,12 @@ public class ProductCatalog {
         if (loaded.getImage() == null) {
             throw new CantPublishProductException();
         }
+
+        loaded.setOnline(true);
     }
 
     public List<ProductData> allPublishedProducts() {
-        return Collections.emptyList();
+        return productStorage.allPublished();
     }
 
     public void assignPrice(String productId, BigDecimal newPrice) {
@@ -48,7 +46,8 @@ public class ProductCatalog {
         return loadProductById(productId);
     }
 
-    public void assignImage(String productId, String s) {
-
+    public void assignImage(String productId, String newImage) {
+        ProductData loaded = loadProductById(productId);
+        loaded.assignImage(newImage);
     }
 }
