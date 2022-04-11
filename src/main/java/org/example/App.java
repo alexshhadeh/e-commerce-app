@@ -3,10 +3,10 @@ package org.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import pl.jkanclerz.creditcard.NameProvider;
-import pl.jkanclerz.productcatalog.MapProductStorage;
-import pl.jkanclerz.productcatalog.ProductCatalog;
-import pl.jkanclerz.productcatalog.ProductStorage;
+import org.example.creditcard.NameProvider;
+import org.example.productcatalog.MapProductStorage;
+import org.example.productcatalog.ProductCatalog;
+import org.example.productcatalog.ProductStorage;
 
 import java.math.BigDecimal;
 

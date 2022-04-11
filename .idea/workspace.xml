@@ -6,16 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="419b53ca-c57d-4a50-b5b7-9bca2ca24517" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/NameProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/NameProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/CantPublishProductException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/MapProductStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductCatalog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductCatalogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/creditcard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/creditcard/CreditCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,20 @@
       <recent name="org.example.creditcard" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductCatalogTest.itDeniesToPublishProductWithoutPrice">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="e-commerce-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.creditcard.App" />
       <module name="e-commerce-app" />
@@ -81,13 +88,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.creditcard.CreditCard" />
-      <module name="e-commerce-app" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="JUnit.ProductCatalogTest.itDeniesToPublishProductWithoutPrice" />
         <item itemvalue="JUnit.ProductCatalogTest.itAllowsToAddProductDraft" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CreditCardTest.assignLimitToCreditCard" />
-        <item itemvalue="Application.CreditCard" />
       </list>
     </recent_temporary>
   </component>

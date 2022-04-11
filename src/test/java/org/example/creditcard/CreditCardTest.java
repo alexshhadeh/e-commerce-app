@@ -8,7 +8,7 @@ public class CreditCardTest {
     @Test
     void assignLimitToCreditCard(){
         CreditCard creditCard = new CreditCard();
-        creditCard.assignLimit(BigDecimal.valueOf(800));
+        creditCard.assignCreditLimit(BigDecimal.valueOf(800));
         assertEquals(BigDecimal.valueOf(800), creditCard.getBalance());
     }
 }
