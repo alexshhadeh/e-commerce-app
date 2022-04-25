@@ -7,9 +7,22 @@
     <list default="true" id="419b53ca-c57d-4a50-b5b7-9bca2ca24517" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CantAssignLimtiTwiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CantAssignLimtiTwiceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creditcard/NameProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creditcard/NameProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/CantPublishProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/CantPublishProductException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ListProductStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ListProductStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/MapProductStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/MapProductStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductCatalogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductCatalogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/ProductStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/SQLProductStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/productcatalog/SQLProductStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/creditcard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/creditcard/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ListProductStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ListProductStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductCatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/ProductCatalogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/SQLProductStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/productcatalog/SQLProductStorageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
